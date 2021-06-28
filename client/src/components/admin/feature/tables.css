@@ -1,0 +1,23 @@
+.hover-button .hover-button--on,
+.hover-button:hover .hover-button--off {
+  display: none;
+}
+
+.hover-button:hover .hover-button--on {
+  display: inline;
+}
+.parent {
+  position: relative;
+}
+.child {
+  position: absolute;
+  top: 0;
+}
+
+.child-1 {
+  right: 0;
+}
+
+.child-2 {
+  left: 150px;
+}
